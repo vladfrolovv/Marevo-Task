@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class ObjectsManager : MonoBehaviour {
   [SerializeField] private ObjectParser objectParser;
+  [SerializeField] private MenuAppear menuAppear;
   
   [Header("Objects Instantiation")]
   [SerializeField] private GameObject objectPrefab;
@@ -28,6 +29,8 @@ public class ObjectsManager : MonoBehaviour {
       AVAILABLE_OBJECTS[i].thisObject = (GameObject)Instantiate(objectPrefab, Vector3.zero, Quaternion.identity, parent.transform);
       AVAILABLE_OBJECTS[i].thisObject.GetComponent<ObjectBehaviour>().ObjectSetup(AVAILABLE_OBJECTS[i]);
     }
+    
+    menuAppear.Appear();
   }
 
 }

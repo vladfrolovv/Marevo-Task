@@ -3,6 +3,12 @@ using UnityEngine;
 using System.Collections;
 
 public class Utilities {
+
+  public static IEnumerator WithTimeout(Action action, float timeout) {
+    yield return new WaitForSeconds(timeout);
+    action();
+  }
+  
   public static IEnumerator Animate(Action<float> update, float duration, Action onEnd = null) {
     update(0);
     yield return null;
