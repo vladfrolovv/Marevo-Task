@@ -8,6 +8,8 @@ public class TableRequest : MonoBehaviour {
   private const string googleSpreadsheetLink = "https://sheets.googleapis.com/v4/spreadsheets/";
   private const string keyPath = "/values/Sheet1?key=";
 
+  [SerializeField] private ObjectsManager objectsManager;
+  
   private void Start() {
     StartCoroutine(GetTableJson());
   }
@@ -21,8 +23,7 @@ public class TableRequest : MonoBehaviour {
       Debug.Log("ERROR: " + request.responseCode);
       yield break;
     }
-    
-    Debug.Log("Received JSON" + request.downloadHandler.text);   
-    // parse with classes
+
+    objectsManager.FillMenu(request.downloadHandler.text);
   }
 }

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CanvasScaler : MonoBehaviour {
   [SerializeField] private UnityEngine.UI.CanvasScaler canvas;
