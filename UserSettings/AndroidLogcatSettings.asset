@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RF8R10GCEKD",
         "name": "com.test.marevo",
-        "processId": 31321,
+        "processId": 16839,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,24 @@
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
             "processId": 31321,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 11844,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 13281,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 16839,
             "exited": false
         }
     ],

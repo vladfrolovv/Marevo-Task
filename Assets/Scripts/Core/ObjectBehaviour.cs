@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.Networking;
 
 public class ObjectBehaviour : MonoBehaviour {
-  private ObjectsManager.Object thisObject;
+  public ObjectsManager.Object thisObject;
 
   [Header("Tile")]
   [SerializeField] private TextMeshProUGUI title;

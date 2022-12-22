@@ -9,7 +9,7 @@ public class ObjectsManager : MonoBehaviour {
   [SerializeField] private GameObject objectPrefab;
   [SerializeField] private RectTransform parent;
   
-  public List<Object> AVAILABLE_OBJECTS = new List<Object>();
+  private List<Object> AVAILABLE_OBJECTS = new List<Object>();
   public class Object {
     public readonly string title, previewLink, textureLink;
     private readonly string size;
