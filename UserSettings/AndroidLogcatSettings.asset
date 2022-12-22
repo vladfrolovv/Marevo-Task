@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RF8R10GCEKD",
         "name": "com.test.marevo",
-        "processId": 16839,
+        "processId": 16937,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,37 +11,73 @@
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 27065,
+            "processId": 29938,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "org.telegram.messenger",
+            "processId": 20863,
             "exited": false
         },
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 30423,
+            "processId": 30975,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 31770,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 3908,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 5992,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 8404,
             "exited": false
         },
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 31321,
+            "processId": 10603,
             "exited": false
         },
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 11844,
+            "processId": 12950,
             "exited": false
         },
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 13281,
+            "processId": 14430,
             "exited": false
         },
         {
             "deviceId": "RF8R10GCEKD",
             "name": "com.test.marevo",
-            "processId": 16839,
+            "processId": 15772,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R10GCEKD",
+            "name": "com.test.marevo",
+            "processId": 16937,
             "exited": false
         }
     ],

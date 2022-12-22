@@ -1,20 +1,18 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class OnARModeOpen : MonoBehaviour {
+public class CreateARObject : MonoBehaviour
+{
   [SerializeField] private GameObject parallelepipedPrefab;
 
   private GameObject parallelepiped;
-  private void CreateParallelepiped() {
-    parallelepiped = Instantiate(parallelepipedPrefab, Vector3.zero, Quaternion.identity);
+  public void CreateParallelepiped(Vector3 onPos) {
+    parallelepiped = Instantiate(parallelepipedPrefab, onPos, Quaternion.identity);
     parallelepiped.transform.localScale = DimensionsMenu.lastDimensions / 100;
     parallelepiped.transform.localPosition += new Vector3(0, parallelepiped.transform.localPosition.y / 2, 0);
     StartCoroutine(GetTextureRequest());
-  }
-
-  private void Start() {
-    CreateParallelepiped();
   }
 
   private IEnumerator GetTextureRequest() {
@@ -28,5 +26,4 @@ public class OnARModeOpen : MonoBehaviour {
       parallelepiped.GetComponent<Renderer>().material.mainTexture = previewTexture;
     }
   }
-  
 }

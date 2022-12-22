@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6929229757380155883}
   m_Layer: 0
   m_Name: Parallelepiped
-  m_TagString: Untagged
+  m_TagString: Spawnable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
