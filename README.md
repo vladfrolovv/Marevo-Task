@@ -4,6 +4,11 @@ Vlad Frolov, Unity 3D AR developer test task </br>
 
 https://user-images.githubusercontent.com/94003248/209157154-58828101-5bee-430a-88a6-484731b00571.mp4 
 
+
+
+https://user-images.githubusercontent.com/94003248/209582349-1110f763-b0d6-463c-af96-31dca403446a.mp4
+
+
 <B>ToDo List: </B> </br>
 <ul>
 <li>More responsive navigation</li>
